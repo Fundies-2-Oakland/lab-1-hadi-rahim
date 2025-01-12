@@ -39,8 +39,7 @@ public class Vector3D {
         }
         return new Vector3D(x / magnitude, y / magnitude, z);
     }
-
-    public Vector3D add()
+    
 
 }
 
