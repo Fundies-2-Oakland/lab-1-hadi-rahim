@@ -37,7 +37,7 @@ public class Vector3D {
         if (magnitude == 0.0) {
             throw new IllegalStateException("Cannot normalize.");
         }
-        return new Vector3D(x / magnitude, y / magnitude, z);
+        return new Vector3D(x/magnitude, y/magnitude, z/magnitude);
     }
     
 
